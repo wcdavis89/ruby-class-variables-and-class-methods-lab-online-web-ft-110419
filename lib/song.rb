@@ -32,7 +32,7 @@ class Song
   
   def self.artist_count
     @@artists.each do |artist|
-      artist.index+1
+      artist.index
     end
   end
   
