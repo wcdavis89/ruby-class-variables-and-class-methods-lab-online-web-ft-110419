@@ -1,4 +1,4 @@
-class Book
+class Song
   attr_accessor :artist, :name, :genre
   
   @@count = 0 
