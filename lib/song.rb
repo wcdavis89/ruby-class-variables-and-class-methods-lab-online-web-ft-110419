@@ -14,7 +14,8 @@ class Book
     @@genres << genre
   end
   
-  def 
+  def .count
+    @@count 
   end
   def 
   end
