@@ -5,9 +5,14 @@ class Book
   @@artists = []
   @@genres = []
 
-  def initialize(name)
+  def initialize(name, artist, genre)
     @name = name
-    @artist
+    @artist = artists
+    @genre = genre
+    
+    
+    
+    
   end
 
   
