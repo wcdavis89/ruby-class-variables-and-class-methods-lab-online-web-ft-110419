@@ -9,15 +9,13 @@ class Book
     @name = name
     @artist = artists
     @genre = genre
-    
-    
-    
-    
+    @@song_count+=1 
+    @@artists << artist
+    @@genres << genre
   end
 
   
   def genre=(genre)
     @genre = genre
-    GENRES << genre
   end
 end
