@@ -17,6 +17,10 @@ class Book
   def .count
     @@count 
   end
-  def 
+  def .artists
+    @@artists
+  end
+  def .genres 
+    @@genres
   end
 end
